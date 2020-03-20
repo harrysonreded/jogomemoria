@@ -1,0 +1,56 @@
+{
+	"name": "Memory Minecreft",
+	"description":"The game sort image about the game Minecreft from container and show in datagrid",
+	"authors": [
+{	
+
+	 "name": "HARRYSON REDED DOS SANTOS",
+	 "role": "longe de ser programador"
+}
+
+],
+"require-dev": {
+	"bootstrap/3.3.0/css":"*",
+	"bootstrap/3.3.0/js":"*",
+	"jquery/1.11.1":"*"
+},
+"repositories":[
+	{
+		"type": "package",
+		"package": {
+		 "name": "bootstrap/3.3.0/css",
+		 "version": "3.3.0",
+		 "dist":{
+			"url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css",
+			"type": "file"
+			}		
+		}
+
+	},
+	{
+		"type": "package",
+		"package": {
+		 "name": "bootstrap/3.3.0/js",
+		 "version": "3.3.0",
+		 "dist":{
+			"url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js",
+			"type": "file"
+			}		
+		}
+
+	},
+
+	{
+		"type": "package",
+		"package": {
+		 "name": "jquery/1.11.1",
+		 "version": "1.11.1",
+		 "dist":{
+			"url": "https://code.jquery.com/jquery-1.11.1.min.js",
+			"type": "file"
+			}		
+		}
+	}	
+
+	]
+}
